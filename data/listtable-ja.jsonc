@@ -29,7 +29,7 @@
             "act_fields": [
                 "id",
                 "title",
-                "actdate"
+                "actdate.date"
             ]
         }
     }
