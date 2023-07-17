@@ -12,7 +12,6 @@
             "https://overpass-api.de/api/interpreter"
         ]
     },
-    "tile_default": "OSM_Standard",
     "tile": {
         "MapTiler": {
             "style": "https://api.maptiler.com/maps/c9876a21-f16a-4a84-abc0-950badd4631e/style.json?key=Eq2IyrHsOEGFU1W1fvd7"

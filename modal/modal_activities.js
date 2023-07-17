@@ -23,7 +23,6 @@ class modal_Activities {
     };
 
     make(actlists) {
-        let ymd = "YYYY/MM/DD";
         let tModal = document.createElement("div");
         let template = document.createElement("div");
         let result = "", newmode = "";
@@ -34,7 +33,7 @@ class modal_Activities {
             let clone = template.querySelector("div.body").cloneNode(true);
             let head = clone.querySelector("h5");
             let body = clone.querySelector("div.p-1");
-            let updated = basic.formatDate(new Date(act.updatetime), ymd);
+            let updated = basic.formatDate(new Date(act.updatetime), Conf.default.formatDate);
             newmode = act.id.split('/')[0];
             let form = Conf.activities[newmode].form;
             head.innerHTML = act.title;
@@ -62,7 +61,7 @@ class modal_Activities {
                     chtml += "<strong>" + glot.get("memories_place") + "</strong><br>" + act.place + "<br><br>";
                     chtml += "<strong>" + glot.get("memories_supply") + "</strong><br>" + act.supply + "<br><br>";
                     chtml += "<strong>" + glot.get("memories_references") + "</strong><br>" + act.references + "<br><br>";
-                    chtml += "<strong>" + glot.get("memories_reception") + "</strong><br>" + basic.formatDate(new Date(act.reception), ymd) + "<br><br>";
+                    chtml += "<strong>" + glot.get("memories_reception") + "</strong><br>" + basic.formatDate(new Date(act.reception), Conf.default.formatDate) + "<br><br>";
                     break;
                 default:    // event
                     head.innerHTML = act.title;
@@ -72,7 +71,7 @@ class modal_Activities {
                         let gdata = act[form[key].gsheet] == undefined ? "" : String(act[form[key].gsheet]);
                         switch (form[key].type) {
                             case "date":
-                                chtml += `<div class='col'>${glot.get(form[key].glot)}</div><div class='col-9'>${basic.formatDate(new Date(gdata), "YYYY/MM/DD")}</div>`;
+                                chtml += `<div class='col'>${glot.get(form[key].glot)}</div><div class='col-9'>${basic.formatDate(new Date(gdata), Conf.default.formatDate)}</div>`;
                                 break;
                             case "select":
                             case "text":

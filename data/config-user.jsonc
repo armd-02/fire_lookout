@@ -4,45 +4,40 @@
         "tile_default": "MapTiler", // タイル一覧は config-system.jsonc へ
         "keep_default_view": false,
         "default_view": [
-            135.4828,
-            34.7212
+            134.0030567,
+            35.054767
         ],
-        "maxbounds": "",
-        "_maxbounds": [
+        "maxbounds": [
             [
-                136.11914,
-                34.94088
+                133.57441,
+                34.810416
             ],
             [
-                135.86492,
-                35.09545
+                134.47147,
+                35.37144
             ]
         ],
-        "initZoom": 14,
-        "pc_minZoom": 5,
-        "phone_minZoom": 4,
+        "initZoom": 10,
+        "pc_minZoom": 7,
+        "phone_minZoom": 5,
         "maxZoom": 21,
-        "zoomSnap": 0.5
+        "zoomSnap": 0.5,
+        "formatDate": "YYYY/MM/DD"
     },
     "PoiViewZoom": {
-        "activity": 15,
-        "restaurant": 15,
-        "shop": 15
+        "fire_lookout": 10
     },
     "PoiView": {
         "targets": [
-            "restaurant",
-            "shop",
+            "fire_lookout",
             "activity"
         ],
         "update_mode": "all" // listTable更新時 all:全て / filter:絞り込み / "":非連動
     },
-    "DetailViewZoom": 17,
+    "DetailViewZoom": 13,
     "listTable": {
         "targets": [ // target名:overpass名を表示 / activity:google sheetsを表示 / tags:osm poi種別名を表示
-            "activity",
-            "restaurant",
-            "shop"
+            "activity"
         ],
         "playback": {
             "view": false,
@@ -53,11 +48,11 @@
     },
     "google": {
         "Analytics": "",
-        "AppScript": "https://script.google.com/macros/s/AKfycbyCq06UBWAId9MeUH6lZQRLs2kIRX5MMLCcYEn0EMk4zjrVC7u9qaaq1Ks1fBwzCvBKUA/exec",
+        "AppScript": "https://script.google.com/macros/s/AKfycbxaMjUGH2fiL2tdURM1cM3x275qyqBks2_GN7mesgP99VSrHkDcJDWVAd0_JH6rwDx8lQ/exec",
         "targetName": "activity"
     },
     "splash": {
-        "url": "./image/cMapmaker.png"
+        "url": "./image/fire_lookout.png"
     },
     "static": {
         "mode": false,
@@ -100,7 +95,7 @@
     "detail_menu": [
         {
             "glot-model": "act_add",
-            "linkto": "javascript:modal_activities.edit({form:'sample'})",
+            "linkto": "javascript:modal_activities.edit({form:'fire_lookout'})",
             "divider": false
         },
         {
@@ -121,7 +116,7 @@
         "buttons": [
             {
                 "btn_class": "btn btn-light border-secondary mr-2",
-                "code": "javascript:modal_activities.edit({form:'sample'})",
+                "code": "javascript:modal_activities.edit({form:'fire_lookout'})",
                 "icon_class": "fas fa-plus",
                 "btn_glot_name": "add_activity"
             },

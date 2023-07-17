@@ -1,31 +1,31 @@
 {
 	"site_title": {
-		"ja": "Community Map Maker",
-		"en": "Community Map Maker"
+		"ja": "津山市「火の見櫓」マップ",
+		"en": "Tsuyama City Fire Lookout Map"
 	},
 	"site_subtitle": {
-		"ja": "Powered by Community Map Maker",
-		"en": "Powered by Community Map Maker"
+		"ja": "調査・データ提供:郷土史家 赤坂健太郎様",
+		"en": "Research and data provided by Kentaro Akasaka, local historian"
 	},
 	"about": {
-		"ja": "Community Map Makerについて",
-		"en": "about Community Map Maker"
+		"ja": "津山市「火の見櫓」マップについて",
+		"en": "about Tsuyama City Fire Lookout Map"
 	},
 	"about_message": {
 		"ja": "",
 		"en": ""
 	},
 	"owner": {
-		"ja": "コミュニティマップメーカー開発サイト",
-		"en": "Community Map Maker development site"
+		"ja": "津山市「火の見櫓」マップ開発サイト",
+		"en": "Tsuyama City Fire Lookout Map development site"
 	},
 	"licence_title": {
 		"ja": "利用規約",
 		"en": "Terms of Use"
 	},
 	"licence_message": {
-		"ja": "Community Map MakerのデータはOpenStreetMapと独自データを組み合わせています。",
-		"en": "The data of Community Map Maker is a combination of OpenStreetMap and Original data."
+		"ja": "津山市「火の見櫓」マップのデータはOpenStreetMapと郷土史家 赤坂健太郎様を組み合わせています。",
+		"en": "Map data is a combination of OpenStreetMap and Kentaro Akasaka's data."
 	},
 	"activities": {
 		"ja": "活動履歴",

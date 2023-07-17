@@ -1,6 +1,6 @@
 {
     "activities": {
-        "sample": {
+        "fire_lookout": {
             "header": "",
             "footer": "",
             "form": {
@@ -8,16 +8,6 @@
                     "glot": "act_date",
                     "type": "date",
                     "gsheet": "actdate"
-                },
-                "select": {
-                    "glot": "act_category",
-                    "type": "select",
-                    "gsheet": "category",
-                    "category": [
-                        "カテゴリ1",
-                        "カテゴリ2",
-                        "カテゴリ3"
-                    ]
                 },
                 "title": {
                     "glot": "act_title",
@@ -43,11 +33,6 @@
                     "glot": "act_picture_url2",
                     "type": "image_url",
                     "gsheet": "picture_url2"
-                },
-                "picture_url3": {
-                    "glot": "act_picture_url3",
-                    "type": "image_url",
-                    "gsheet": "picture_url3"
                 }
             }
         }

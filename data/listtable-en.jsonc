@@ -8,29 +8,28 @@
                     "hidden": true
                 },
                 {
-                    "id": "category",
-                    "name": "Category"
+                    "id": "title",
+                    "name": "place, title",
+                    "width": "70%"
                 },
                 {
-                    "id": "name",
-                    "name": "name"
-                },
-                {
-                    "id": "min_age",
-                    "name": "min age"
+                    "id": "actdate",
+                    "name": "check date",
+                    "width": "30%"
                 }
             ],
+            // #parent.tag名:親地物(敷地)の指定したタグ / その他:tag名
             "poi_fields": [
                 "id",
-                "#category",
-                "#parent.name",
-                "min_age"
+                "target",
+                "timestamp"
             ],
+            // #category:tagから計算したカテゴリ / #tag名:指定したOSM tag名 / datetime:日付(変換付き)
+            // フィールド名:データベースのフィールド名 / フィールド名.date:日付変換付き
             "act_fields": [
                 "id",
-                "#category",
-                "#name",
-                "#min_age"
+                "title",
+                "actdate.date"
             ]
         }
     }
