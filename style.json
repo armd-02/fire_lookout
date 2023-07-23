@@ -2,7 +2,6 @@
     "version": 8,
     "name": "Bright",
     "metadata": {
-        "sprite": "https://sprites.geolonia.com/",
         "mapbox:autocomposite": false,
         "mapbox:groups": {
             "1444849242106.713": {
