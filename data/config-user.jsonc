@@ -72,7 +72,7 @@
     "menu": [
         {
             "glot-model": "licence_title",
-            "linkto": "javascript:cMapmaker.licence()",
+            "linkto": "javascript:cMapMaker.licence()",
             "divider": false
         },
         {
@@ -100,7 +100,7 @@
         },
         {
             "glot-model": "osm_open",
-            "linkto": "javascript:winCont.osm_open(cMapmaker.open_osmid)",
+            "linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
             "divider": false
         },
         {
