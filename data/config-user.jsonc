@@ -7,6 +7,7 @@
             134.0030567,
             35.054767
         ],
+        "viewPitch": 40,
         "maxbounds": [
             [
                 133.57441,
@@ -36,6 +37,9 @@
     },
     "DetailViewZoom": 13,
     "listTable": {
+        "categorys": [ // カテゴリ選択 / targets:ターゲットリスト / activity:アクティビティリスト // tags:タグ
+            "tags"
+        ],
         "targets": [ // target名:overpass名を表示 / activity:google sheetsを表示 / tags:osm poi種別名を表示
             "activity"
         ],
@@ -48,7 +52,7 @@
     },
     "google": {
         "Analytics": "",
-        "AppScript": "https://script.google.com/macros/s/AKfycbxaMjUGH2fiL2tdURM1cM3x275qyqBks2_GN7mesgP99VSrHkDcJDWVAd0_JH6rwDx8lQ/exec",
+        "AppScript": "https://script.google.com/macros/s/AKfycbwXP5eg1_uAre40p2MMWVvtDI_0rY6GLVeMFJf4upM4X6mhThyPc2trF8GTZgYx450FRQ/exec",
         "targetName": "activity"
     },
     "splash": {

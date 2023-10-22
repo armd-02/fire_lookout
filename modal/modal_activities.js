@@ -23,9 +23,11 @@ class modal_Activities {
     };
 
     make(actlists) {
+        let ymd = "YYYY/MM/DD";
         let tModal = document.createElement("div");
         let template = document.createElement("div");
         let result = "", newmode = "";
+        let wikimq = [];
         template.innerHTML = this.html;
         actlists.sort((a, b) => { return a.updatetime > b.updatetime ? -1 : 1 });   // sort by update.
         result = modal_activities.make_activity_list(actlists);
@@ -33,15 +35,14 @@ class modal_Activities {
             let clone = template.querySelector("div.body").cloneNode(true);
             let head = clone.querySelector("h5");
             let body = clone.querySelector("div.p-1");
-            let updated = basic.formatDate(new Date(act.updatetime), Conf.default.formatDate);
+            let updated = basic.formatDate(new Date(act.updatetime), ymd);
             newmode = act.id.split('/')[0];
             let form = Conf.activities[newmode].form;
-            head.innerHTML = act.title;
+            head.innerHTML = act.title + ` <button type="button" class="btn-sm btn-light ml-1 pl-2 pr-2 pt-0 pb-0" onclick="cMapMaker.shareURL('${act.id}')">
+            <i class="fas fa-clone"></i></button>`;
             head.setAttribute("id", act.id.replace("/", ""));
-            let chtml = `<div class="float-right">${glot.get("update")} ${updated}[<a href="javascript:modal_activities.edit({id:'${act.id}',form:'${newmode}'})">${glot.get("act_edit")}</a>]</div>`;
-            chtml += glot.get("share_link") + `<button type="button" class="btn-sm btn-light ml-1 pl-2 pr-2 pt-0 pb-0" onclick="cMapMaker.url_share('${act.id}')">
-                <i class="fas fa-clone"></i>
-            </button><br><br>`;
+            let edit = Conf.default.editMode ? `[<a href="javascript:modal_activities.edit({id:'${act.id}',form:'${newmode}'})">${glot.get("act_edit")}</a>]` : "";
+            let chtml = Conf.default.editMode ? `<div class="float-right">${glot.get("update")} ${updated}${edit}</div>` : "";
             switch (newmode) {
                 case "libc":
                     let mm = !parseInt(act.mm) ? "--" : ("00" + act.mm).substr(-2);
@@ -61,17 +62,15 @@ class modal_Activities {
                     chtml += "<strong>" + glot.get("memories_place") + "</strong><br>" + act.place + "<br><br>";
                     chtml += "<strong>" + glot.get("memories_supply") + "</strong><br>" + act.supply + "<br><br>";
                     chtml += "<strong>" + glot.get("memories_references") + "</strong><br>" + act.references + "<br><br>";
-                    chtml += "<strong>" + glot.get("memories_reception") + "</strong><br>" + basic.formatDate(new Date(act.reception), Conf.default.formatDate) + "<br><br>";
+                    chtml += "<strong>" + glot.get("memories_reception") + "</strong><br>" + basic.formatDate(new Date(act.reception), ymd) + "<br><br>";
                     break;
                 default:    // event
-                    head.innerHTML = act.title;
-
                     Object.keys(form).forEach((key) => {
                         chtml += `<div class='row'>`;
                         let gdata = act[form[key].gsheet] == undefined ? "" : String(act[form[key].gsheet]);
                         switch (form[key].type) {
                             case "date":
-                                chtml += `<div class='col'>${glot.get(form[key].glot)}</div><div class='col-9'>${basic.formatDate(new Date(gdata), Conf.default.formatDate)}</div>`;
+                                chtml += `<div class='col'>${glot.get(form[key].glot)}</div><div class='col-9'>${basic.formatDate(new Date(gdata), "YYYY/MM/DD")}</div>`;
                                 break;
                             case "select":
                             case "text":
@@ -89,7 +88,13 @@ class modal_Activities {
                                 break;
                             case "image_url":
                                 if (gdata !== "http://" && gdata !== "https://" && gdata !== "") {
-                                    chtml += `<div class="col text-center"><img class="thumbnail" onclick="modal_activities.viewImage('${gdata}')" src="${gdata}"></div><br>`;
+                                    if (gdata.slice(0, 5) == "File:") {  // Wikimedia Commons
+                                        let id = act.id.replace("/", "") + "_" + key;
+                                        wikimq.push([gdata, id]);
+                                        chtml += `<div class="col text-center"><img class="thumbnail" onclick="modal_activities.viewImage(this)" id="${id}"></div><br>`;
+                                    } else {
+                                        chtml += `<div class="col text-center"><img class="thumbnail" onclick="modal_activities.viewImage(this)" src="${gdata}"></div><br>`;
+                                    }
                                 };
                                 break;
                         };
@@ -101,6 +106,7 @@ class modal_Activities {
             body.innerHTML = chtml;
             result += clone.outerHTML;
         });
+        wikimq.forEach(q => { basic.getWikiMediaImage(q[0], Conf.default.thumbnailWidth, q[1]) });        // WikiMedia Image 遅延読み込み
         tModal.remove();
         template.remove();
         return result;
@@ -108,12 +114,17 @@ class modal_Activities {
 
     // make activity list
     make_activity_list(actlists) {
-        let html = "<ul class='ml-0 pl-4'>";
-        for (let act of actlists) {
-            console.log("modal_Activities: " + act.id);
-            html += `<li><span class="pointer" onclick="document.getElementById('${act.id.replace('/', '')}').scrollIntoView({behavior: 'smooth'})">${act.title}<span></li>`;
+        if (actlists.length > 1) {
+            let html = "<ul class='ml-0 pl-4'>";
+            for (let act of actlists) {
+                console.log("modal_Activities: " + act.id);
+                html += `<li><span class="pointer" onclick="document.getElementById('${act.id.replace('/', '')}').scrollIntoView({behavior: 'smooth'})">${act.title}<span></li>`;
+            }
+            return html + "</ul>";
         }
-        return html + "</ul>";
+        else {
+            return "";
+        }
     }
 
     // edit activity
@@ -201,7 +212,7 @@ class modal_Activities {
                             console.log("save: ok");
                             winCont.modal_close();
                             gSheet.get(Conf.google.AppScript).then(jsonp => {
-                                poiCont.set_actjson(jsonp);
+                                poiCont.setActdata(jsonp);
                                 let targets = (Conf.listTable.targets.indexOf("targets") > -1) ? [listTable.getSelCategory()] : ["-"];
                                 cMapMaker.viewArea(targets);	// in targets
                                 cMapMaker.viewPoi(targets);	// in targets
@@ -223,12 +234,14 @@ class modal_Activities {
         });
     }
 
-    viewImage(imgurl) {
+    viewImage(e) {
+        let src_org = e.getAttribute("src_org");
+        src_org = src_org == null ? e.src : src_org;
         document.getElementById("full_screen_image").classList.add("isFullScreen");
-        document.getElementById("full_screen_image").style["background-image"] = "url('" + imgurl + "')";
+        document.getElementById("full_screen_image").style["background-image"] = "url('" + src_org + "')";
     }
 
-    closeImage(){
+    closeImage() {
         document.getElementById("full_screen_image").classList.remove("isFullScreen");
     }
 
