@@ -1,9 +1,9 @@
 // Community Mapmaker User Config
 {
     "default": {
-        "tile_default": "MapTiler", // タイル一覧は config-system.jsonc へ
+        "tile_default": "OSMFJ", // タイル一覧は config-system.jsonc へ
         "keep_default_view": false,
-        "default_view": [
+        "viewCenter": [
             134.0030567,
             35.054767
         ],
@@ -18,13 +18,15 @@
                 35.37144
             ]
         ],
-        "initZoom": 10,
+        "initZoom": 11,
         "pc_minZoom": 7,
         "phone_minZoom": 5,
         "maxZoom": 21,
         "zoomSnap": 0.5,
-        "formatDate": "YYYY/MM/DD"
+        "editMode": true, // 編集メニューの表示/非表示
+        "thumbnailWidth": "480"
     },
+    "DetailViewZoom": 13,
     "PoiViewZoom": {
         "fire_lookout": 10
     },
@@ -35,7 +37,6 @@
         ],
         "update_mode": "all" // listTable更新時 all:全て / filter:絞り込み / "":非連動
     },
-    "DetailViewZoom": 13,
     "listTable": {
         "categorys": [ // カテゴリ選択 / targets:ターゲットリスト / activity:アクティビティリスト // tags:タグ
             "tags"
