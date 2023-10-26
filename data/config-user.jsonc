@@ -26,7 +26,7 @@
         "editMode": true, // 編集メニューの表示/非表示
         "thumbnailWidth": "480"
     },
-    "DetailViewZoom": 13,
+    "DetailViewZoom": 15,
     "PoiViewZoom": {
         "fire_lookout": 10
     },
