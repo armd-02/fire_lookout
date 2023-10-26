@@ -1,0 +1,1973 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.57.1 74a55df1",
+  "osm3s": {
+    "timestamp_osm_base": "2023-10-26T14:37:11Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 11050277190,
+  "lat": 35.0620003,
+  "lon": 134.0126688,
+  "timestamp": "2023-07-17T03:33:34Z",
+  "version": 1,
+  "changeset": 138601058,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11076374446,
+  "lat": 35.2136976,
+  "lon": 134.1429206,
+  "timestamp": "2023-07-30T04:44:43Z",
+  "version": 1,
+  "changeset": 139195126,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379113,
+  "lat": 35.0616433,
+  "lon": 133.8439803,
+  "timestamp": "2023-07-30T05:08:12Z",
+  "version": 1,
+  "changeset": 139195452,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379114,
+  "lat": 35.0656473,
+  "lon": 133.8970441,
+  "timestamp": "2023-07-30T05:08:12Z",
+  "version": 1,
+  "changeset": 139195452,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379115,
+  "lat": 35.0069293,
+  "lon": 133.8913957,
+  "timestamp": "2023-07-30T05:08:12Z",
+  "version": 1,
+  "changeset": 139195452,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379144,
+  "lat": 35.1954076,
+  "lon": 134.0845663,
+  "timestamp": "2023-07-30T05:37:42Z",
+  "version": 1,
+  "changeset": 139195824,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379145,
+  "lat": 35.2088272,
+  "lon": 134.1120832,
+  "timestamp": "2023-07-30T05:37:42Z",
+  "version": 1,
+  "changeset": 139195824,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379882,
+  "lat": 35.0506351,
+  "lon": 133.9413168,
+  "timestamp": "2023-07-30T05:26:46Z",
+  "version": 1,
+  "changeset": 139195678,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379884,
+  "lat": 35.0563722,
+  "lon": 133.9537464,
+  "timestamp": "2023-07-30T05:26:46Z",
+  "version": 1,
+  "changeset": 139195678,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379886,
+  "lat": 35.0682580,
+  "lon": 133.9487305,
+  "timestamp": "2023-07-30T05:26:46Z",
+  "version": 1,
+  "changeset": 139195678,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076379887,
+  "lat": 35.0723443,
+  "lon": 133.9626431,
+  "timestamp": "2023-07-30T05:26:46Z",
+  "version": 1,
+  "changeset": 139195678,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076380548,
+  "lat": 35.0503395,
+  "lon": 133.9675839,
+  "timestamp": "2023-07-30T06:24:40Z",
+  "version": 1,
+  "changeset": 139196567,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076380550,
+  "lat": 35.0350924,
+  "lon": 133.9636025,
+  "timestamp": "2023-07-30T06:24:40Z",
+  "version": 1,
+  "changeset": 139196567,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076380551,
+  "lat": 35.0439382,
+  "lon": 133.9862347,
+  "timestamp": "2023-07-30T06:24:40Z",
+  "version": 1,
+  "changeset": 139196567,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076386560,
+  "lat": 35.0169859,
+  "lon": 133.8918323,
+  "timestamp": "2023-07-30T05:17:24Z",
+  "version": 1,
+  "changeset": 139195577,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076387096,
+  "lat": 35.0817496,
+  "lon": 133.9532778,
+  "timestamp": "2023-07-30T06:07:06Z",
+  "version": 1,
+  "changeset": 139196216,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076387097,
+  "lat": 35.0865946,
+  "lon": 133.9524482,
+  "timestamp": "2023-07-30T06:07:06Z",
+  "version": 1,
+  "changeset": 139196216,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076387098,
+  "lat": 35.0793566,
+  "lon": 133.9653755,
+  "timestamp": "2023-07-30T06:07:06Z",
+  "version": 1,
+  "changeset": 139196216,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076387099,
+  "lat": 35.0819809,
+  "lon": 133.9666032,
+  "timestamp": "2023-07-30T06:07:06Z",
+  "version": 1,
+  "changeset": 139196216,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076387100,
+  "lat": 35.0886883,
+  "lon": 133.9638422,
+  "timestamp": "2023-07-30T06:07:06Z",
+  "version": 1,
+  "changeset": 139196216,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076398933,
+  "lat": 35.0604528,
+  "lon": 133.9688119,
+  "timestamp": "2023-07-30T05:40:06Z",
+  "version": 1,
+  "changeset": 139195846,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076398934,
+  "lat": 35.0633913,
+  "lon": 133.9720587,
+  "timestamp": "2023-07-30T05:40:06Z",
+  "version": 1,
+  "changeset": 139195846,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400746,
+  "lat": 35.2084930,
+  "lon": 134.1447471,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400747,
+  "lat": 35.2131992,
+  "lon": 134.1417112,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400748,
+  "lat": 35.2161159,
+  "lon": 134.1462755,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400749,
+  "lat": 35.2295582,
+  "lon": 134.1020334,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400750,
+  "lat": 35.2292367,
+  "lon": 134.1139624,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400751,
+  "lat": 35.2373553,
+  "lon": 134.1112551,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400752,
+  "lat": 35.2464382,
+  "lon": 134.1020015,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076400753,
+  "lat": 35.2469583,
+  "lon": 134.1157488,
+  "timestamp": "2023-07-30T05:32:41Z",
+  "version": 1,
+  "changeset": 139195740,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076403191,
+  "lat": 35.1266365,
+  "lon": 134.0335599,
+  "timestamp": "2023-09-02T02:30:33Z",
+  "version": 2,
+  "changeset": 140702019,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11076403336,
+  "lat": 35.1906981,
+  "lon": 134.0348926,
+  "timestamp": "2023-07-30T06:03:25Z",
+  "version": 1,
+  "changeset": 139196154,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076408579,
+  "lat": 35.2071858,
+  "lon": 134.0661360,
+  "timestamp": "2023-07-30T05:57:01Z",
+  "version": 1,
+  "changeset": 139196061,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076414754,
+  "lat": 35.0613106,
+  "lon": 133.9915934,
+  "timestamp": "2023-07-30T06:35:10Z",
+  "version": 1,
+  "changeset": 139196784,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076414755,
+  "lat": 35.1099826,
+  "lon": 133.9894268,
+  "timestamp": "2023-07-30T06:35:10Z",
+  "version": 1,
+  "changeset": 139196784,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076414756,
+  "lat": 35.1136292,
+  "lon": 133.9681264,
+  "timestamp": "2023-07-30T06:35:10Z",
+  "version": 1,
+  "changeset": 139196784,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076418298,
+  "lat": 35.0518383,
+  "lon": 134.0117866,
+  "timestamp": "2023-07-30T06:41:57Z",
+  "version": 2,
+  "changeset": 139196911,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424163,
+  "lat": 35.1322681,
+  "lon": 134.0707755,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424164,
+  "lat": 35.1330403,
+  "lon": 134.0763250,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424165,
+  "lat": 35.1266546,
+  "lon": 134.1099760,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424176,
+  "lat": 35.1312119,
+  "lon": 134.1175438,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424177,
+  "lat": 35.1250682,
+  "lon": 134.1222230,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424178,
+  "lat": 35.1241537,
+  "lon": 134.1308613,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "layer": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424179,
+  "lat": 35.1353577,
+  "lon": 134.1361406,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424180,
+  "lat": 35.1442214,
+  "lon": 134.0786870,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424181,
+  "lat": 35.1494711,
+  "lon": 134.0813203,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424182,
+  "lat": 35.1625797,
+  "lon": 134.0209374,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076424203,
+  "lat": 35.1568040,
+  "lon": 134.1023558,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076426620,
+  "lat": 35.1204126,
+  "lon": 134.0809314,
+  "timestamp": "2023-07-30T06:22:06Z",
+  "version": 1,
+  "changeset": 139196509,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076426645,
+  "lat": 35.1215880,
+  "lon": 134.0963128,
+  "timestamp": "2023-07-30T06:22:06Z",
+  "version": 1,
+  "changeset": 139196509,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076426646,
+  "lat": 35.1160922,
+  "lon": 134.1087221,
+  "timestamp": "2023-07-30T06:22:06Z",
+  "version": 1,
+  "changeset": 139196509,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076426647,
+  "lat": 35.1153739,
+  "lon": 134.1185524,
+  "timestamp": "2023-07-30T06:22:06Z",
+  "version": 1,
+  "changeset": 139196509,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076426648,
+  "lat": 35.1107084,
+  "lon": 134.1302280,
+  "timestamp": "2023-07-30T06:22:06Z",
+  "version": 1,
+  "changeset": 139196509,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430094,
+  "lat": 35.0946615,
+  "lon": 134.0700339,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430095,
+  "lat": 35.0788820,
+  "lon": 134.0700339,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430096,
+  "lat": 35.0827396,
+  "lon": 134.0767676,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430097,
+  "lat": 35.0906705,
+  "lon": 134.0781207,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430098,
+  "lat": 35.0867518,
+  "lon": 134.0722588,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430099,
+  "lat": 35.0583433,
+  "lon": 134.0804462,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430100,
+  "lat": 35.0629775,
+  "lon": 134.0941805,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430101,
+  "lat": 35.0712298,
+  "lon": 134.0911885,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430102,
+  "lat": 35.0751975,
+  "lon": 134.1014130,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430103,
+  "lat": 35.0884226,
+  "lon": 134.0938405,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076430104,
+  "lat": 35.0862141,
+  "lon": 134.1040966,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076431105,
+  "lat": 35.0910853,
+  "lon": 133.9702619,
+  "timestamp": "2023-07-30T06:16:02Z",
+  "version": 1,
+  "changeset": 139196397,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076431107,
+  "lat": 35.0856181,
+  "lon": 133.9766749,
+  "timestamp": "2023-07-30T06:16:02Z",
+  "version": 1,
+  "changeset": 139196397,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076431218,
+  "lat": 35.1619583,
+  "lon": 134.0700299,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076431219,
+  "lat": 35.1730486,
+  "lon": 134.0714622,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076431220,
+  "lat": 35.1780446,
+  "lon": 134.0546011,
+  "timestamp": "2023-07-30T06:16:31Z",
+  "version": 1,
+  "changeset": 139196408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076433567,
+  "lat": 35.0549856,
+  "lon": 133.9821462,
+  "timestamp": "2023-07-30T06:27:38Z",
+  "version": 1,
+  "changeset": 139196641,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076441823,
+  "lat": 35.1162907,
+  "lon": 134.0538347,
+  "timestamp": "2023-07-30T06:28:02Z",
+  "version": 1,
+  "changeset": 139196646,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076442801,
+  "lat": 35.1195559,
+  "lon": 133.9821593,
+  "timestamp": "2023-07-30T06:33:06Z",
+  "version": 1,
+  "changeset": 139196751,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076444220,
+  "lat": 35.1166536,
+  "lon": 134.0104070,
+  "timestamp": "2023-07-30T06:33:06Z",
+  "version": 1,
+  "changeset": 139196751,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076444225,
+  "lat": 35.1237500,
+  "lon": 134.0157647,
+  "timestamp": "2023-07-30T06:33:06Z",
+  "version": 1,
+  "changeset": 139196751,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076444230,
+  "lat": 35.1178611,
+  "lon": 134.0383724,
+  "timestamp": "2023-07-30T06:33:06Z",
+  "version": 1,
+  "changeset": 139196751,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076446350,
+  "lat": 35.0355392,
+  "lon": 133.9989154,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451205,
+  "lat": 35.0883096,
+  "lon": 134.1069290,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451216,
+  "lat": 35.0935412,
+  "lon": 134.1065495,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451217,
+  "lat": 35.1003612,
+  "lon": 134.1003569,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451218,
+  "lat": 35.1001313,
+  "lon": 134.0961224,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451224,
+  "lat": 35.1045942,
+  "lon": 134.0997427,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451225,
+  "lat": 35.1042990,
+  "lon": 134.1105607,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451226,
+  "lat": 35.1052120,
+  "lon": 134.1121429,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451227,
+  "lat": 35.1088576,
+  "lon": 134.1136781,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451228,
+  "lat": 35.1105872,
+  "lon": 134.1078074,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076451229,
+  "lat": 35.1168902,
+  "lon": 134.0721582,
+  "timestamp": "2023-07-30T06:45:23Z",
+  "version": 1,
+  "changeset": 139196986,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076461224,
+  "lat": 35.0416284,
+  "lon": 133.9722848,
+  "timestamp": "2023-07-30T07:45:39Z",
+  "version": 1,
+  "changeset": 139198307,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076463793,
+  "lat": 35.1047066,
+  "lon": 134.0674261,
+  "timestamp": "2023-07-30T08:16:54Z",
+  "version": 1,
+  "changeset": 139199166,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076463804,
+  "lat": 35.1089898,
+  "lon": 134.0623842,
+  "timestamp": "2023-07-30T08:16:54Z",
+  "version": 1,
+  "changeset": 139199166,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076475704,
+  "lat": 35.0866163,
+  "lon": 133.9725114,
+  "timestamp": "2023-07-30T07:57:47Z",
+  "version": 1,
+  "changeset": 139198593,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076478577,
+  "lat": 35.0425826,
+  "lon": 134.0761711,
+  "timestamp": "2023-07-30T07:36:34Z",
+  "version": 1,
+  "changeset": 139198110,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076478578,
+  "lat": 35.0422883,
+  "lon": 134.0716231,
+  "timestamp": "2023-07-30T07:36:34Z",
+  "version": 1,
+  "changeset": 139198110,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076478579,
+  "lat": 35.0351504,
+  "lon": 134.0668675,
+  "timestamp": "2023-07-30T07:36:34Z",
+  "version": 1,
+  "changeset": 139198110,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480914,
+  "lat": 35.0307146,
+  "lon": 134.0082626,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480915,
+  "lat": 35.0296581,
+  "lon": 134.0098518,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480916,
+  "lat": 35.0406007,
+  "lon": 134.0426479,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480917,
+  "lat": 35.0348699,
+  "lon": 134.0388431,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480918,
+  "lat": 35.0120174,
+  "lon": 134.0323636,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480919,
+  "lat": 35.0488206,
+  "lon": 134.0578050,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076480920,
+  "lat": 35.0488343,
+  "lon": 134.0743348,
+  "timestamp": "2023-07-30T07:43:27Z",
+  "version": 1,
+  "changeset": 139198250,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496570,
+  "lat": 35.0568569,
+  "lon": 134.0142701,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496571,
+  "lat": 35.0511185,
+  "lon": 134.0347870,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496572,
+  "lat": 35.0775051,
+  "lon": 134.0054597,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496573,
+  "lat": 35.0813082,
+  "lon": 133.9988504,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496574,
+  "lat": 35.0909630,
+  "lon": 134.0166321,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496579,
+  "lat": 35.0924021,
+  "lon": 134.0438709,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496580,
+  "lat": 35.1014798,
+  "lon": 134.0491690,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496582,
+  "lat": 35.0986188,
+  "lon": 134.0407160,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496583,
+  "lat": 35.1002526,
+  "lon": 134.0366471,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496584,
+  "lat": 35.1062311,
+  "lon": 134.0327619,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496585,
+  "lat": 35.1082273,
+  "lon": 134.0483670,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076496586,
+  "lat": 35.1122131,
+  "lon": 134.0470192,
+  "timestamp": "2023-07-30T08:30:42Z",
+  "version": 1,
+  "changeset": 139199610,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076503625,
+  "lat": 35.0492082,
+  "lon": 134.0267383,
+  "timestamp": "2023-07-30T08:08:18Z",
+  "version": 1,
+  "changeset": 139198913,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076503626,
+  "lat": 35.0469766,
+  "lon": 134.0251592,
+  "timestamp": "2023-07-30T08:08:18Z",
+  "version": 1,
+  "changeset": 139198913,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539527,
+  "lat": 35.0693265,
+  "lon": 134.0481323,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539528,
+  "lat": 35.0593451,
+  "lon": 134.0451208,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539529,
+  "lat": 35.0592408,
+  "lon": 134.0489893,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539530,
+  "lat": 35.0615208,
+  "lon": 134.0547158,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539531,
+  "lat": 35.0659722,
+  "lon": 134.0541213,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539532,
+  "lat": 35.0665209,
+  "lon": 134.0534897,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539537,
+  "lat": 35.0711151,
+  "lon": 134.0613167,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539538,
+  "lat": 35.0760383,
+  "lon": 134.0553635,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539539,
+  "lat": 35.0626701,
+  "lon": 134.0361790,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539540,
+  "lat": 35.0670412,
+  "lon": 134.0331066,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539541,
+  "lat": 35.0795687,
+  "lon": 134.0181729,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076539542,
+  "lat": 35.0879096,
+  "lon": 134.0281136,
+  "timestamp": "2023-07-30T08:40:02Z",
+  "version": 1,
+  "changeset": 139199898,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11076625212,
+  "lat": 35.0893430,
+  "lon": 134.0082901,
+  "timestamp": "2023-07-30T10:05:20Z",
+  "version": 1,
+  "changeset": 139202750,
+  "user": "yuinachan",
+  "uid": 17655026,
+  "tags": {
+    "emergency": "fire_lookout"
+  }
+},
+{
+  "type": "node",
+  "id": 11162170870,
+  "lat": 35.0760982,
+  "lon": 134.0877238,
+  "timestamp": "2023-09-02T03:04:57Z",
+  "version": 1,
+  "changeset": 140702364,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162194586,
+  "lat": 35.0548691,
+  "lon": 134.0758165,
+  "timestamp": "2023-09-02T03:06:32Z",
+  "version": 1,
+  "changeset": 140702387,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162202550,
+  "lat": 35.0453024,
+  "lon": 134.0842381,
+  "timestamp": "2023-09-02T03:05:53Z",
+  "version": 1,
+  "changeset": 140702379,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162202551,
+  "lat": 35.0607900,
+  "lon": 134.0306327,
+  "timestamp": "2023-09-02T03:07:25Z",
+  "version": 1,
+  "changeset": 140702394,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162211529,
+  "lat": 35.0770799,
+  "lon": 134.0115499,
+  "timestamp": "2023-09-02T02:28:15Z",
+  "version": 1,
+  "changeset": 140702001,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162211946,
+  "lat": 35.0802182,
+  "lon": 134.0102662,
+  "timestamp": "2023-09-02T03:08:38Z",
+  "version": 1,
+  "changeset": 140702408,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162216582,
+  "lat": 35.1045010,
+  "lon": 134.1213362,
+  "timestamp": "2023-09-02T02:36:00Z",
+  "version": 1,
+  "changeset": 140702077,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162230456,
+  "lat": 35.0873063,
+  "lon": 134.0138206,
+  "timestamp": "2023-09-02T03:09:14Z",
+  "version": 1,
+  "changeset": 140702415,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162231883,
+  "lat": 35.2036032,
+  "lon": 134.0934365,
+  "timestamp": "2023-09-02T02:57:16Z",
+  "version": 1,
+  "changeset": 140702265,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162234825,
+  "lat": 35.1423614,
+  "lon": 134.0777612,
+  "timestamp": "2023-09-02T03:03:58Z",
+  "version": 1,
+  "changeset": 140702356,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162236537,
+  "lat": 35.2071019,
+  "lon": 134.1081998,
+  "timestamp": "2023-09-02T03:01:16Z",
+  "version": 1,
+  "changeset": 140702303,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11162237764,
+  "lat": 35.0558443,
+  "lon": 134.0065885,
+  "timestamp": "2023-09-02T03:08:00Z",
+  "version": 1,
+  "changeset": 140702401,
+  "user": "K_Sakanoshita",
+  "uid": 389520,
+  "tags": {
+    "emergency": "fire_lookout",
+    "man_made": "tower"
+  }
+}
+
+  ]
+}

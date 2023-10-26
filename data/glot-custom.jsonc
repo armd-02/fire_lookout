@@ -12,8 +12,8 @@
 		"en": "about Tsuyama City Fire Lookout Map"
 	},
 	"about_message": {
-		"ja": "",
-		"en": ""
+		"ja": "津山市「火の見櫓」マップは、郷土史家 赤坂健太郎様から提供されたオープンデータを元に開発しています。",
+		"en": "Tsuyama City Fire Watchtower Map is developed based on open data provided by Mr. Kentaro Akasaka, a local historian."
 	},
 	"owner": {
 		"ja": "津山市「火の見櫓」マップ開発サイト",
@@ -24,8 +24,20 @@
 		"en": "Terms of Use"
 	},
 	"licence_message": {
-		"ja": "津山市「火の見櫓」マップのデータはOpenStreetMapと郷土史家 赤坂健太郎様を組み合わせています。",
-		"en": "Map data is a combination of OpenStreetMap and Kentaro Akasaka's data."
+		"ja": "<a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>と<a href='https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/ja'>Wikimedia Commons</a>のライセンスに従ってご利用ください。",
+		"en": "Please use in accordance with the <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> and <a href='https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia'>Wikimedia Commons</a> licenses."
+	},
+	"more_message": {
+		"ja": "",
+		"en": ""
+	},
+	"openstreetmap": {
+		"ja": "OpenStreetMapについて",
+		"en": "about OpenStreetMap"
+	},
+	"wikimediacommons": {
+		"ja": "Wikimedia Commonsについて",
+		"en": "about Wikimedia Commons"
 	},
 	"activities": {
 		"ja": "活動履歴",

@@ -10,7 +10,6 @@ const FILES = [
 	`./data/marker.jsonc`, `./data/category-${LANG}.jsonc`, `data/listtable-${LANG}.jsonc`,
 	'./data/overpass-system.jsonc', `./data/overpass-custom.jsonc`, `./data/glot-custom.jsonc`, `data/glot-system.jsonc`];
 const glot = new Glottologist();
-var modal_takeout = new modal_Takeout();
 var modal_activities = new modal_Activities();
 var modal_wikipedia = new modal_Wikipedia();
 var basic = new Basic();
@@ -104,7 +103,8 @@ window.addEventListener("DOMContentLoaded", function () {
 					init_close();
 				});
 			} else {
-				init_close();
+				poiCont.setActlnglat()
+				init_close()
 			}
 
 		});

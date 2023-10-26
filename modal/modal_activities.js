@@ -91,9 +91,9 @@ class modal_Activities {
                                     if (gdata.slice(0, 5) == "File:") {  // Wikimedia Commons
                                         let id = act.id.replace("/", "") + "_" + key;
                                         wikimq.push([gdata, id]);
-                                        chtml += `<div class="col text-center"><img class="thumbnail" onclick="modal_activities.viewImage(this)" id="${id}"></div><br>`;
+                                        chtml += `<div class="col-12 text-center"><img class="thumbnail" onclick="modal_activities.viewImage(this)" id="${id}"><span id="${id}-copyright"></span></div>`;
                                     } else {
-                                        chtml += `<div class="col text-center"><img class="thumbnail" onclick="modal_activities.viewImage(this)" src="${gdata}"></div><br>`;
+                                        chtml += `<div class="col-12 text-center"><img class="thumbnail" onclick="modal_activities.viewImage(this)" src="${gdata}"></div>`;
                                     }
                                 };
                                 break;

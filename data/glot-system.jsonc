@@ -147,10 +147,6 @@
 		"ja": "施設種別",
 		"en": "Facility type"
 	},
-	"openstreetmap": {
-		"ja": "OpenStreetMapについて",
-		"en": "about OpenStreetMap"
-	},
 	"osm_open": {
 		"ja": "OpenStreetMapで見る",
 		"en": "See in OpenStreetMap"
@@ -178,10 +174,6 @@
 	"target_forest": {
 		"ja": "森・林",
 		"en": "forest"
-	},
-	"target_takeout": {
-		"ja": "持ち帰り",
-		"en": "takeout"
 	},
 	"target_disaster": {
 		"ja": "防災",

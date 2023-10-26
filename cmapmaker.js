@@ -119,9 +119,9 @@ class CMapMaker {
 	}
 
 	// OSMとGoogle SpreadSheetからPoiを取得してリスト化
-	get_poi(targets) {
+	updateOsmPoi(targets) {
 		return new Promise((resolve) => {
-			console.log("cMapMaker: get_poi: Start");
+			console.log("cMapMaker: updateOsmPoi: Start");
 			winCont.spinner(true);
 			var keys = (targets !== undefined && targets !== "") ? targets : Object.values(Conf.PoiView.targets);
 			let PoiLoadZoom = 99;
@@ -130,18 +130,21 @@ class CMapMaker {
 			};
 			if ((mapLibre.getZoom(true) < PoiLoadZoom)) {
 				winCont.spinner(false);
-				console.log("[success]cMapMaker: get_poi End(more zoom).");
+				console.log("[success]cMapMaker: updateOsmPoi End(more zoom).");
 				resolve({ "update": true });
 			} else {
 				OvPassCnt.getGeojson(keys, status_write).then(ovanswer => {
 					winCont.spinner(false);
-					if (ovanswer) poiCont.add_geojson(ovanswer);
-					console.log("[success]cMapMaker: get_poi End.");
+					if (ovanswer) {
+						poiCont.add_geojson(ovanswer)
+						poiCont.setActlnglat()
+					};
+					console.log("[success]cMapMaker: updateOsmPoi End.");
 					global_status.innerHTML = "";
 					resolve({ "update": true });
 				})/*.catch(() => {
 					winCont.spinner(false);
-					console.log("[error]cMapMaker: get_poi end.");
+					console.log("[error]cMapMaker: updateOsmPoi end.");
 					global_status.innerHTML = "";
 					resolve({ "update": false });
 				})*/;
@@ -286,7 +289,7 @@ class CMapMaker {
 			this.id = setTimeout(() => {
 				console.log("eventMoveMap: End.");
 				this.moveMapBusy = 2;
-				this.get_poi().then((status) => {
+				this.updateOsmPoi().then((status) => {
 					this.moveMapBusy = 0;
 					let targets = [listTable.getSelCategory()];
 					if (Conf.PoiView.update_mode == "all" || status.update) {

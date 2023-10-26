@@ -19,16 +19,14 @@
             ]
         ],
         "initZoom": 11,
-        "pc_minZoom": 7,
-        "phone_minZoom": 5,
         "maxZoom": 21,
         "zoomSnap": 0.5,
-        "editMode": true, // 編集メニューの表示/非表示
-        "thumbnailWidth": "480"
+        "editMode": false, // 編集メニューの表示/非表示
+        "thumbnailWidth": "320"
     },
     "DetailViewZoom": 15,
     "PoiViewZoom": {
-        "fire_lookout": 10
+        "fire_lookout": 8
     },
     "PoiView": {
         "targets": [
@@ -60,18 +58,8 @@
         "url": "./image/fire_lookout.png"
     },
     "static": {
-        "mode": false,
-        "osmjson": "",
-        "osmbounds": { // "{NW: {"lat":lat,"lng":lng"},"SE":{"lat":lat,"lng":lng}}
-            "NW": {
-                "lat": 45.7392,
-                "lng": 119.0340
-            },
-            "SE": {
-                "lat": 20.5444,
-                "lng": 144.8863
-            }
-        }
+        "mode": true,
+        "osmjson": "./data/fire_lookout.json"
     },
     // トップメニュー一覧
     "menu": [
@@ -82,7 +70,7 @@
         },
         {
             "glot-model": "about",
-            "linkto": "https://github.com/K-Sakanoshita/community_mapmaker",
+            "linkto": "javascript:cMapMaker.about()",
             "divider": true
         },
         {
@@ -94,15 +82,22 @@
             "glot-model": "openstreetmap",
             "linkto": "https://www.openstreetmap.org/about",
             "divider": false
+        },
+        {
+            "glot-model": "wikimediacommons",
+            "linkto": "https://commons.wikimedia.org/wiki/Commons:Welcome/ja",
+            "divider": false
         }
     ],
     // 詳細表示のモーダル設定
     "detail_menu": [
+        /*
         {
             "glot-model": "act_add",
             "linkto": "javascript:modal_activities.edit({form:'fire_lookout'})",
             "divider": false
         },
+        */
         {
             "glot-model": "osm_open",
             "linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
@@ -119,12 +114,14 @@
         "openfirst": true,
         // 詳細モーダルの追加ボタン 
         "buttons": [
+            /*
             {
                 "btn_class": "btn btn-light border-secondary mr-2",
                 "code": "javascript:modal_activities.edit({form:'fire_lookout'})",
                 "icon_class": "fas fa-plus",
                 "btn_glot_name": "add_activity"
             },
+            */
             {
                 "btn_class": "btn btn-light border-secondary",
                 "code": "javascript:cMapMaker.url_share()",
