@@ -103,8 +103,7 @@
                 "node[\"amenity\"=\"coworking_space\"]",
                 "way[\"amenity\"=\"coworking_space\"]",
                 "node[\"craft\"=\"photographer\"]",
-                "way[\"craft\"=\"photographer\"]",
-                
+                "way[\"craft\"=\"photographer\"]"                
             ],
             "tags": [
                 "shop",
