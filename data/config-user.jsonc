@@ -1,14 +1,15 @@
 // Community Mapmaker User Config
 {
-    "default": {
-        "tile_default": "OSMFJ", // タイル一覧は config-system.jsonc へ
-        "keep_default_view": false,
+    "map": {
+        "changeMap": true, // 地図切り替え時はtrue
+        "tileName": "OSMFJ", // タイル一覧は config-system.jsonc へ
         "viewCenter": [
             134.0030567,
             35.054767
         ],
-        "viewPitch": 40,
-        "maxbounds": [
+        "viewPitch": 0,
+        "maxPitch": 75,
+        "maxBounds": [ // 地図の表示範囲(左下、右上)
             [
                 133.57441,
                 34.810416
@@ -20,28 +21,62 @@
         ],
         "initZoom": 11,
         "maxZoom": 21,
-        "zoomSnap": 0.5,
-        "editMode": false, // 編集メニューの表示/非表示
-        "thumbnailWidth": "320"
+        "detailZoom": 17 // モーダルダイアログ表示時のズームサイズ
     },
-    "DetailViewZoom": 15,
-    "PoiViewZoom": {
-        "fire_lookout": 8
+    "minimap": { // 地球儀表示時の初期設定
+        "use": false, // 地球儀利用時はtrue
+        "height": 200,
+        "initZoom": 2,
+        "viewCenter": [
+            135,
+            34
+        ]
     },
-    "PoiView": {
-        "targets": [
-            "fire_lookout",
-            "activity"
-        ],
-        "update_mode": "all" // listTable更新時 all:全て / filter:絞り込み / "":非連動
+    "polygon": {
+        "textFont": [
+            "Noto Sans Regular"
+        ], // 使用可能なフォント（spriteに依存）
+        "textSize": 12, // 0:非表示
+        "textAnchor": "top",
+        "fill": { // ポリゴン設定
+            "fill-color": "#CC6666",
+            "fill-opacity": 0.3
+        }
+    },
+    "icon": {
+        "fgPath": "icon",
+        "bgPath": "image",
+        "shadow": 0.6,
+        "attention": 0.55,
+        "green": 0.6,
+        "middle": 0.7,
+        "visited": 0.4,
+        "normal": 0.6,
+        "flag": 0.5,
+        "textFont": [
+            "Noto Sans Regular"
+        ], // 使用可能なフォント（spriteに依存）
+        "textSize": 12,
+        "textViewZoom": 13 // アイコンに文字を表示するズームレベル
+    },
+    "poiView": {
+        "poiActLoad": true, // 起動時にActivityを読み込むか
+        "poiFilter": "all", // listTable更新時 all:全て / filter:絞り込み / "":非連動
+        "poiZoom": {
+            // アイコンの前後位置は後ろの方が手前になる
+            "fire_lookout": 10,
+            "fire_station": 10,
+            "place": 10
+        },
+        "editZoom": {
+            // 編集時に追加するpoiZoom
+        }
     },
     "listTable": {
-        "categorys": [ // カテゴリ選択 / targets:ターゲットリスト / activity:アクティビティリスト // tags:タグ
-            "tags"
-        ],
-        "targets": [ // target名:overpass名を表示 / activity:google sheetsを表示 / tags:osm poi種別名を表示
-            "activity"
-        ],
+        "height": 0.6, // リスト時の高さ(1を最大とした割合)
+        "category": "activity", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
+        "target": "", // targets:指定したtargetだけ表示 / activity:google sheetsのデータのみ表示 // 空:両方表示
+        "allActs": true, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
         "playback": {
             "view": false,
             "zoomLevel": 15,
@@ -49,84 +84,131 @@
         },
         "download": false
     },
+    "thumbnail": {
+        "use": true,
+        "slideThumbWidth": "320",
+        "modalThumbWidth": "800"
+    },
+    "selectItem": { // 選択リストの内容を手動記載 / 空の時は "" とする
+        "default": "",
+        "menu": "",
+        "action": "" // ChangeMap:背景地図切り替え / ChangePOI:メニューに会ったOverpass名のPOIを表示 / "":google Spreadseedのcategory
+    },
     "google": {
         "Analytics": "",
         "AppScript": "https://script.google.com/macros/s/AKfycbzrRAZ3U7ETYuldka17BRAJGh6TyvB7sohiCwuUkDC1eLjzksEV19No6Hb4PgAQv0qsNA/exec",
-        "targetName": "activity"
-    },
-    "splash": {
-        "url": "./image/fire_lookout.png"
+        "targetName": "activity",
+        "actTitle": "title" // アイコンの名称が無い時、指定したスプレッドシートの項目名を取得する
     },
     "static": {
-        "mode": true,
-        "osmjson": "./data/fire_lookout.json"
+        "use": true,
+        "osmjsons": [
+            "./static/fire_lookout.json"
+        ]
     },
-    // トップメニュー一覧
-    "menu": [
-        {
-            "glot-model": "licence_title",
-            "linkto": "javascript:cMapMaker.licence()",
-            "divider": false
-        },
-        {
-            "glot-model": "about",
-            "linkto": "javascript:cMapMaker.about()",
-            "divider": true
-        },
-        {
-            "glot-model": "owner",
-            "linkto": "https://github.com/armd-02/fire_lookout",
-            "divider": false
-        },
-        {
-            "glot-model": "openstreetmap",
-            "linkto": "https://www.openstreetmap.org/about",
-            "divider": false
-        },
-        {
-            "glot-model": "wikimediacommons",
-            "linkto": "https://commons.wikimedia.org/wiki/Commons:Welcome/ja",
-            "divider": false
-        }
-    ],
-    // 詳細表示のモーダル設定
-    "detail_menu": [
-        /*
-        {
-            "glot-model": "act_add",
-            "linkto": "javascript:modal_activities.edit({form:'fire_lookout'})",
-            "divider": false
-        },
-        */
-        {
-            "glot-model": "osm_open",
-            "linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
-            "divider": false
-        },
-        {
-            "glot-model": "button_close",
-            "linkto": "javascript:winCont.modal_close()",
-            "divider": false
-        }
-    ],
-    "detail_view": {
-        // 詳細モーダルの一番上を開くかどうか
-        "openfirst": true,
-        // 詳細モーダルの追加ボタン 
-        "buttons": [
+    "wikipedia": {
+        "marker": "wikipedia.svg",
+        "api_": "wikipedia.org/w/api.php?format=json&action=query&prop=extracts%7Cimages&exintro=&explaintext=&titles=",
+        "api": "wikipedia.org/api/rest_v1/page/summary/",
+        "domain": "wikipedia.org",
+        "tag": "wikipedia",
+        "image": true
+    },
+    "etc": {
+        "localSave": "", // 訪問済み機能フラグ(有効時はアプリ名、無効時は"")
+        "editMode": false, // 編集メニューの表示/非表示
+        "splashUrl": "./image/fire_lookout.png",
+        "loadingUrl": "./image/loading.gif"
+    },
+    "menu": {
+        "main": [
+            // トップメニュー一覧
+            {
+                "glot-model": "about",
+                "linkto": "javascript:cMapMaker.about()",
+                "divider": false
+            },
+            {
+                "glot-model": "licence_title",
+                "linkto": "javascript:cMapMaker.licence()",
+                "divider": false
+            },
+            {
+                "glot-model": "develop_site",
+                "linkto": "https://github.com/armd-02/fire_lookout",
+                "divider": false
+            },
+            {
+                "glot-model": "openstreetmap",
+                "linkto": "https://www.openstreetmap.org/about",
+                "divider": false
+            }
+        ],
+        "mainSystem": [
             /*
             {
-                "btn_class": "btn btn-light border-secondary mr-2",
-                "code": "javascript:modal_activities.edit({form:'fire_lookout'})",
-                "icon_class": "fas fa-plus",
-                "btn_glot_name": "add_activity"
+                "glot-model": "export_visited",
+                "linkto": "javascript:poiStatusCont.export()",
+                "divider": false
+            },
+            {
+                "glot-model": "import_visited",
+                "linkto": "javascript:poiStatusCont.import()",
+                "divider": false
+            }
+                */
+        ],
+        // 詳細表示のハンバーガーメニュー
+        "modal": [
+            /*
+            {
+                "glot-model": "act_add",
+                "linkto": "javascript:modalActs.edit({form:'expo2025'})",
+                "divider": false
             },
             */
             {
+                "glot-model": "copyShareLink",
+                "linkto": "javascript:cMapMaker.shareURL()",
+                "divider": false
+            },
+            {
+                "glot-model": "osm_open",
+                "linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
+                "divider": false
+            }
+        ],
+        // 詳細モーダルの追加ボタン
+        "activities": [
+            /*
+            {
                 "btn_class": "btn btn-light border-secondary",
-                "code": "javascript:cMapMaker.url_share()",
+                "code": "javascript:modalActs.edit({form:'expo2025'})",
+                "icon_class": "fas fa-clone",
+                "btn_glot_name": "act_add"
+            }
+            {
+                "btn_class": "btn btn-light border-secondary",
+                "code": "javascript:cMapMaker.shareURL()",
                 "icon_class": "fas fa-clone",
                 "btn_glot_name": "share_link"
+            }
+            */
+        ],
+        "editActivity": [
+            {
+                "btn_class": "btn btn-light border-secondary p-1 btn-max pe-auto",
+                "code": "javascript:modalActs.save()",
+                "icon_class": "fa-solid fa-cloud-arrow-up",
+                "btn_glot_name": "act_save"
+            }
+        ],
+        "visited": [
+            {
+                "btn_class": "btn btn-light border-secondary pe-auto",
+                "code": "javascript:poiStatusCont.import_load()",
+                "icon_class": "fa-solid fa-cloud-arrow-up",
+                "btn_glot_name": "act_upload"
             }
         ]
     }

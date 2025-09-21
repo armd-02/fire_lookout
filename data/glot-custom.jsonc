@@ -1,78 +1,94 @@
 {
-	"site_title": {
-		"ja": "津山市「火の見櫓」マップ",
-		"en": "Tsuyama City Fire Lookout Map"
-	},
-	"site_subtitle": {
-		"ja": "調査・データ提供:郷土史家 赤坂健太郎様",
-		"en": "Research and data provided by Kentaro Akasaka, local historian"
-	},
-	"about": {
-		"ja": "津山市「火の見櫓」マップについて",
-		"en": "about Tsuyama City Fire Lookout Map"
-	},
-	"about_message": {
-		"ja": "津山市「火の見櫓」マップは、郷土史家 赤坂健太郎様から提供されたオープンデータを元に開発しています。",
-		"en": "Tsuyama City Fire Watchtower Map is developed based on open data provided by Mr. Kentaro Akasaka, a local historian."
-	},
-	"owner": {
-		"ja": "津山市「火の見櫓」マップ開発サイト",
-		"en": "Tsuyama City Fire Lookout Map development site"
-	},
-	"licence_title": {
-		"ja": "利用規約",
-		"en": "Terms of Use"
-	},
-	"licence_message": {
-		"ja": "<a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>と<a href='https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/ja'>Wikimedia Commons</a>のライセンスに従ってご利用ください。",
-		"en": "Please use in accordance with the <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> and <a href='https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia'>Wikimedia Commons</a> licenses."
-	},
-	"more_message": {
-		"ja": "",
-		"en": ""
-	},
-	"openstreetmap": {
-		"ja": "OpenStreetMapについて",
-		"en": "about OpenStreetMap"
-	},
-	"wikimediacommons": {
-		"ja": "Wikimedia Commonsについて",
-		"en": "about Wikimedia Commons"
-	},
-	"activities": {
-		"ja": "活動履歴",
-		"en": "Activities"
-	},
-	"act_date": {
-		"ja": "確認日",
-		"en": "Check Date"
-	},
-	"act_category": {
-		"ja": "カテゴリ",
-		"en": "Category"
-	},
-	"act_title": {
-		"ja": "タイトル",
-		"en": "Title"
-	},
-	"act_memo": {
-		"ja": "説明",
-		"en": "Detail"
-	},
-	"act_detail_url": {
-		"ja": "詳細URL",
-		"en": "Detail URL"
-	},
-	"act_picture_url1": {
-		"ja": "写真URL1",
-		"en": "Picture URL1"
-	},
-	"act_picture_url2": {
-		"ja": "写真URL2",
-		"en": "Picture URL2"
-	},
-	"act_picture_url3": {
-		"ja": "写真URL3",
-		"en": "Picture URL3"
-	}
+    "site_title": {
+        "ja": "津山市「火の見櫓」マップ",
+        "en": "Tsuyama City Fire Lookout Map"
+    },
+    "site_subtitle": {
+        "ja": "調査・データ提供:郷土史家 赤坂健太郎様",
+        "en": "Research and data provided by Kentaro Akasaka, local historian"
+    },
+    "about": {
+        "ja": "津山市「火の見櫓」マップについて",
+        "en": "about Tsuyama City Fire Lookout Map"
+    },
+    "about_message": {
+        "ja": "津山市「火の見櫓」マップは、郷土史家 赤坂健太郎様から提供されたオープンデータを元に開発しています。",
+        "en": "Tsuyama City Fire Watchtower Map is developed based on open data provided by Mr. Kentaro Akasaka, a local historian."
+    },
+    "owner": {
+        "ja": "津山市「火の見櫓」マップ開発サイト",
+        "en": "Tsuyama City Fire Lookout Map development site"
+    },
+    "licence_title": {
+        "ja": "利用規約",
+        "en": "Terms of Use"
+    },
+    "licence_message": {
+        "ja": "<a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>と<a href='https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/ja'>Wikimedia Commons</a>のライセンスに従ってご利用ください。",
+        "en": "Please use in accordance with the <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> and <a href='https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia'>Wikimedia Commons</a> licenses."
+    },
+    "develop_site": {
+        "ja": "津山市「火の見櫓」マップの開発サイトへ",
+        "en": "Tsuyama City Fire Lookout Map development site"
+    },
+    "more_message": {
+        "ja": "",
+        "en": ""
+    },
+    "openstreetmap": {
+        "ja": "OpenStreetMapについて",
+        "en": "about OpenStreetMap"
+    },
+    "wikimediacommons": {
+        "ja": "Wikimedia Commonsについて",
+        "en": "about Wikimedia Commons"
+    },
+    "activities": {
+        "ja": "活動履歴",
+        "en": "Activities"
+    },
+    "act_date": {
+        "ja": "確認日",
+        "en": "Check Date"
+    },
+    "act_category": {
+        "ja": "カテゴリ",
+        "en": "Category"
+    },
+    "act_title": {
+        "ja": "タイトル",
+        "en": "Title"
+    },
+    "act_attention": {
+        "ja": "写真URLにWikimedia Commonsを指定する時は、タイトルを入力してください(例 File:遊具名.jpg)",
+        "en": "When specifying Wikimedia Commons for the photo URL, enter the title (e.g. File: Play equipment name.jpg)"
+    },
+    "act_memo": {
+        "ja": "説明",
+        "en": "Detail"
+    },
+    "act_detail_url": {
+        "ja": "詳細URL",
+        "en": "Detail URL"
+    },
+    "act_picture_url1": {
+        "ja": "写真URL1",
+        "en": "Picture URL1"
+    },
+    "act_picture_url2": {
+        "ja": "写真URL2",
+        "en": "Picture URL2"
+    },
+    "act_picture_url3": {
+        "ja": "写真URL3",
+        "en": "Picture URL3"
+    },
+    "act_picture_url4": {
+        "ja": "写真URL4",
+        "en": "Picture URL3"
+    },
+    "act_picture_url5": {
+        "ja": "写真URL5",
+        "en": "Picture URL3"
+    }
 }
